@@ -1,0 +1,308 @@
+#wholecontainer{
+    background-color:black;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+ .headtext{
+    position: relative;
+    left: 50px;
+    color: whitesmoke;
+ }
+  #logos ul{
+    width: 74%;
+    gap:50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right:50px;
+    color: whitesmoke;
+}
+
+ .headtext  p{
+    font-size:22px;
+}
+
+.imagecontainer{
+    display: flex;
+    color: white;
+     justify-content: space-evenly; 
+}
+.imagecontainer p{
+    font-size: 28px;
+    position: relative; 
+    top:50px; 
+    left:69px; 
+    color: rgb(180, 176, 176);
+}
+  .imagecontainer pre{
+    color: rgb(224, 222, 222); 
+    font-size: 30px;
+     position: relative; 
+     top:90px; 
+     right:195px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bolder;
+     
+  }
+ .imagecontainer img{
+    position: relative;
+    bottom: 20px;
+    right: 150px;
+ }
+
+  .price{
+    display: flex;
+    position: relative;
+    right:330px;
+    top:120px;
+  }
+button{
+    width:140px;
+    height:50px;
+    background-color: red;
+    border-radius:4%;
+    position: relative;
+    top:300px;
+    right:740px;
+    color: whitesmoke;
+    font-size:18px;
+}
+
+p{
+    text-align: center;
+    font-size:25px;
+    color: whitesmoke;
+}
+
+ul{
+    width:90%;
+    gap:95px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    color: whitesmoke;
+    padding:45px;
+}
+.images{
+    display: flex;
+    gap:155px;
+}
+
+
+#image1{
+    flex-direction: column;
+    position: relative;
+    top:130px;
+}
+#image1 pre{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
+    font-style: normal;
+    
+}
+.t1{
+    display: flex;
+    
+}
+#image2{
+    flex-direction: column;
+}
+#image2 p{
+    text-align: center;
+    color: whitesmoke;
+    font-size:15px;
+    
+}
+#image2{
+    flex-direction: column;
+    position: relative;
+    top:40px;
+}
+
+#image3{
+    flex-direction: column;
+}
+
+#image3 p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+    
+}
+#image3{
+    flex-direction: column;
+    
+}
+#image4{
+    flex-direction: column;
+}
+#image4 p{
+    text-align: center;
+    color: whitesmoke;
+    font-size:15px;
+    
+}
+#image4{
+    flex-direction: column;
+    position: relative;
+    top:40px;
+}
+
+
+#image5{
+    flex-direction: column;
+    position: relative;
+    top:137px;
+    
+}
+#image5 p{
+    text-align: start;
+    color: whitesmoke;
+    font-size:13px;
+    
+}
+
+.cards{
+    height:1400px; 
+    width:98%;
+    margin:5px auto;
+}
+.vertical{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    margin:10px auto;
+}
+.horiz{
+    height:450px;
+    width: 100%;
+      border: 1px solid white; 
+     margin:1% ;
+}
+
+
+.horiz img{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.star{
+   color: red;
+   position: relative;
+   top:20px;
+   left:22px;
+}
+.text h2{
+   padding-top: 10px;
+    color: white;
+}
+ .text p{
+    font-size:20px;
+    color: rgb(103, 103, 103);
+    font-style: normal;
+    text-align:start;
+    /* border-bottom: 1px solid; */
+    
+}
+hr{
+    width:87%;
+    color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen  and (min-width:375px) and (max-width:425px){
+    .header{
+        display: flex;  
+    }
+     .headtext p{
+         position: relative;
+         right:50px;
+     }
+    ul{
+        gap:20%;
+    }
+    .imagecontainer p{
+        position:relative;
+        left:20px;
+        font-size: smaller;
+        text-wrap: nowrap;
+    }
+    .imagecontainer pre{
+        font-size: medium;
+        position: relative;
+        right:90px;
+    }
+    .price{
+        position: relative;
+        right:43%;
+        top:50px;
+    }
+    button{
+        position: relative;
+        right:10px;
+    }
+    .imagecontainer img{
+        position: relative;
+        right:300px;
+        top:20px;
+        width:50%;
+        height: 50%;
+        
+    }
+} */
