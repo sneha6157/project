@@ -2,7 +2,7 @@
     background-color:black;
     overflow: hidden;
 }
-
+    /* header section */
 .header{
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,9 @@
  .headtext  p{
     font-size:22px;
 }
+          /* header section end */
 
+                 /* banner image start */
 .imagecontainer{
     display: flex;
     color: white;
@@ -63,8 +65,9 @@
     position: relative;
     right:330px;
     top:120px;
-  }
-button{
+  } 
+                
+ .imagecontainer button{
     width:140px;
     height:50px;
     background-color: red;
@@ -75,13 +78,15 @@ button{
     color: whitesmoke;
     font-size:18px;
 }
+            /* banner image end */
 
+            /* top products */
 p{
     text-align: center;
     font-size:25px;
     color: whitesmoke;
 }
-
+         
 ul{
     width:90%;
     gap:95px;
@@ -91,6 +96,10 @@ ul{
     color: whitesmoke;
     padding:45px;
 }
+
+           /* top prdts end */
+
+           /* feature prdts start */
 .images{
     display: flex;
     gap:155px;
@@ -170,30 +179,43 @@ ul{
     font-size:13px;
     
 }
+            /* feature prdts end */
 
+
+            /* top prdts images */
 .cards{
     height:1400px; 
     width:98%;
     margin:5px auto;
 }
 .vertical{
-    height: 450px;
+    height: 478px;
     width: 100%;
     display: flex;
     margin:10px auto;
 }
 .horiz{
-    height:450px;
+    height:478px;
     width: 100%;
       border: 1px solid white; 
      margin:1% ;
+    
 }
-
-
 .horiz img{
     position: relative;
     left: 50px;
     top: 20px;
+}
+.horiz button{
+    color: white;
+    background-color: red;
+    height:50px ;
+    width: 260px;
+    font-size: medium;
+    position: relative;
+    bottom:15%;
+    left: 10%;
+    
 }
 .star{
    color: red;
@@ -210,7 +232,6 @@ ul{
     color: rgb(103, 103, 103);
     font-style: normal;
     text-align:start;
-    /* border-bottom: 1px solid; */
     
 }
 hr{
@@ -218,6 +239,59 @@ hr{
     color:grey;
 }
 
+  .footer p{
+    text-align: center;
+    padding-top:13%;
+  }  
+  .icons{
+    color: red;
+    display: flex;
+    gap: 200px;
+    
+
+  }
+  
+   .box{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+   
+  } 
+  .box input{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-color: 1px solid gray;
+    color: gray;
+  }
+  .box button{
+    color: white;
+    background-color: red;
+    height:50px ;
+    width: 260px;
+    font-size: medium;
+    
+  }
+  h2{
+    color: white;
+  }
+
+  .foot{
+    display: flex;
+  }
+  .foottext{
+    display: flex;
+    gap: 200px;
+  }
+.foottext p{
+    font-size: 19px;
+    color: gray;
+}
+.foottext h5{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
 
 
 
@@ -264,9 +338,7 @@ hr{
 
 
 
-
-
-/* @media screen  and (min-width:375px) and (max-width:425px){
+ @media screen  and (min-width:375px) and (max-width:425px){
     .header{
         display: flex;  
     }
@@ -275,7 +347,7 @@ hr{
          right:50px;
      }
     ul{
-        gap:20%;
+        gap:10%;
     }
     .imagecontainer p{
         position:relative;
@@ -305,4 +377,196 @@ hr{
         height: 50%;
         
     }
-} */
+} 
+
+
+
+@media screen  and (min-width:425px) and (max-width:768px){
+    .header{
+        display: flex;  
+    }
+     .headtext p{
+         position: relative;
+         right:50px;
+     }
+    ul{
+        gap:10%;
+    }
+    .imagecontainer p{
+        position:relative;
+        left:20px;
+        font-size: smaller;
+        text-wrap: nowrap;
+    }
+    .imagecontainer pre{
+        font-size: medium;
+        position: relative;
+        right:90px;
+    }
+    .price{
+        position: relative;
+        right:43%;
+        top:50px;
+    }
+    button{
+        position: relative;
+        right:10px;
+    }
+    .imagecontainer img{
+        position: relative;
+        right:300px;
+        top:20px;
+        width:50%;
+        height: 50%;
+        
+    }
+      .price{
+        display: flex;
+        position: relative;
+        right:170px;
+        top:60px;
+      } 
+                    
+     .imagecontainer button{
+        width:50%;
+        height:50px;
+        background-color: red;
+        border-radius:4%;
+        position: relative;
+        top:200px;
+        right:400px;
+        color: whitesmoke;
+        font-size:18px;
+    }
+                /* banner image end */
+    
+                /* top products */
+    p{
+        text-align: center;
+        font-size:25px;
+        color: whitesmoke;
+    }
+             
+    ul{
+        width:90%;
+        gap:95px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 19px;
+        color: whitesmoke;
+        padding:45px;
+    }
+    
+               /* top prdts end */
+    
+               /* feature prdts start */
+    .images{
+        display: flex;
+        gap:155px;
+    }
+    
+    
+    #image1{
+        flex-direction: column;
+        position: relative;
+        top:130px;
+    }
+    #image1 pre{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 12px;
+        font-style: normal;
+        
+    }
+    .t1{
+        display: flex;
+        
+    }
+    #image2{
+        flex-direction: column;
+    }
+    #image2 p{
+        text-align: center;
+        color: whitesmoke;
+        font-size:15px;
+        
+    }
+    #image2{
+        flex-direction: column;
+        position: relative;
+        top:40px;
+    }
+    
+    #image3{
+        flex-direction: column;
+    }
+    
+    #image3 p{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 22px;
+        
+    }
+    #image3{
+        flex-direction: column;
+        
+    }
+    #image4{
+        flex-direction: column;
+    }
+    #image4 p{
+        text-align: center;
+        color: whitesmoke;
+        font-size:15px;
+        
+    }
+    #image4{
+        flex-direction: column;
+        position: relative;
+        top:40px;
+    }
+    
+    
+    #image5{
+        flex-direction: column;
+        position: relative;
+        top:137px;
+        
+    }
+    #image5 p{
+        text-align: start;
+        color: whitesmoke;
+        font-size:13px;
+        
+    }
+                /* feature prdts end */
+    
+    
+                /* top prdts images */
+    .cards{
+        height:1400px; 
+        width:98%;
+        margin:5px auto;
+    }
+    .vertical{
+        height: 478px;
+        width: 100%;
+        display: flex;
+        margin:10px auto;
+    }
+    .horiz{
+        height:478px;
+        width: 100%;
+          border: 1px solid white; 
+         margin:1% ;
+        
+    }
+    .horiz img{
+        position: relative;
+        left: 50px;
+        top: 20px;
+} 
+
+
+
+}
