@@ -240,37 +240,50 @@ hr{
 }
 
   .footer p{
-    text-align: center;
-    padding-top:13%;
-  }  
+    padding-top: 10%;
+  }
   .icons{
-    color: red;
     display: flex;
-    gap: 200px;
-    
-
+    gap: 250px;
+    padding-left: 2%;
   }
   
+  .delivery {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.delivery-icon {
+    font-size: 1.2em; 
+    color: red;
+}
    .box{
-    text-align: start;
+    gap: 10px;
     display: flex;
     flex-direction: column;
-   
+    text-indent:5%;
+    
   } 
   .box input{
-    width: 300px;
+    width: 320px;
     height: 50px;
     background-color: black;
     border-color: 1px solid gray;
     color: gray;
+    margin-left: 2%;
   }
   .box button{
     color: white;
     background-color: red;
     height:50px ;
-    width: 260px;
+    width: 170px;
     font-size: medium;
-    
+    margin-left: 2%;
+  }
+  .box pre{
+    font-size:19px;
+    color: gray;
   }
   h2{
     color: white;
@@ -278,23 +291,42 @@ hr{
 
   .foot{
     display: flex;
+    gap: 200px;
+    border-bottom: 1px solid gray;
   }
   .foottext{
     display: flex;
     gap: 200px;
+    
   }
 .foottext p{
     font-size: 19px;
     color: gray;
 }
-.foottext h5{
+.foottext h5{ font-size: 20px;
+color: white;
+    text-align: center;}
+
+    #rights{
+        display: flex;
+
+    }
+p{
     font-size: 20px;
-    color: white;
-    text-align: center;
+    color:gray;
+    text-align: start;  
 }
-
-
-
+.last{
+    display: flex;
+    gap: 900px;
+}
+h3{ 
+    
+    color: white;}
+.brands{
+    color: white;
+    
+}
 
 
 
