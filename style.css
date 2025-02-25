@@ -240,12 +240,17 @@ hr{
 }
 
   .footer p{
-    padding-top: 10%;
+    padding-top: 13%;
+    color: white;
+    font-size:25px;
+    text-align: center;
+    padding-bottom:5%;
   }
   .icons{
     display: flex;
-    gap: 250px;
+    gap: 230px;
     padding-left: 2%;
+    padding-bottom:3%;
   }
   
   .delivery {
@@ -254,12 +259,20 @@ hr{
     gap: 8px; 
 }
 
+.delivery-text{
+    font-size: 19px;
+    color: white;
+}
+small{
+    
+    color: gray;
+}
 .delivery-icon {
-    font-size: 1.2em; 
+    font-size: 29px; 
     color: red;
 }
    .box{
-    gap: 10px;
+    
     display: flex;
     flex-direction: column;
     text-indent:5%;
@@ -279,11 +292,12 @@ hr{
     height:50px ;
     width: 170px;
     font-size: medium;
-    margin-left: 2%;
+    margin:3%;
   }
   .box pre{
     font-size:19px;
     color: gray;
+   
   }
   h2{
     color: white;
@@ -293,6 +307,7 @@ hr{
     display: flex;
     gap: 200px;
     border-bottom: 1px solid gray;
+    padding-bottom:5px;
   }
   .foottext{
     display: flex;
@@ -303,29 +318,34 @@ hr{
     font-size: 19px;
     color: gray;
 }
-.foottext h5{ font-size: 20px;
-color: white;
-    text-align: center;}
+.foottext h5{ 
+    font-size: 20px;
+    color: white;
+    
+}
 
     #rights{
         display: flex;
 
     }
-p{
+  #rights p{
     font-size: 20px;
     color:gray;
     text-align: start;  
 }
 .last{
     display: flex;
-    gap: 900px;
+    gap: 850px;
 }
 h3{ 
     
     color: white;}
-.brands{
+.brands {
     color: white;
-    
+    display: flex;
+    gap: 80%;
+    align-items:center;
+   
 }
 
 
