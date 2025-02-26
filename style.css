@@ -305,22 +305,27 @@ small{
 
   .foot{
     display: flex;
-    gap: 200px;
+    gap: 210px;
     border-bottom: 1px solid gray;
     padding-bottom:5px;
   }
   .foottext{
     display: flex;
-    gap: 200px;
+    gap: 190px;
     
   }
 .foottext p{
     font-size: 19px;
     color: gray;
+    display: flex;
+    align-items: start;
 }
 .foottext h5{ 
     font-size: 20px;
     color: white;
+    display: flex;
+    align-items: start;
+    
     
 }
 
