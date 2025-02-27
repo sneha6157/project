@@ -102,7 +102,7 @@ ul{
            /* feature prdts start */
 .images{
     display: flex;
-    gap:155px;
+    gap:175px;
 }
 
 
@@ -134,7 +134,7 @@ ul{
 #image2{
     flex-direction: column;
     position: relative;
-    top:40px;
+    top:30px;
 }
 
 #image3{
@@ -163,14 +163,14 @@ ul{
 #image4{
     flex-direction: column;
     position: relative;
-    top:40px;
+    top:45px;
 }
 
 
 #image5{
     flex-direction: column;
     position: relative;
-    top:137px;
+    top:145px;
     
 }
 #image5 p{
