@@ -30,6 +30,14 @@ body {
     height: auto;
     border-radius: 5px;
 }
+.cart-item p{
+    font-size: 20px;
+    color: lightgreen;
+}
+.cart-item span{
+    font-size: 20px;
+    color: gray;
+}
 .item-details h3 {
     margin: 0;
     font-size: 16px;

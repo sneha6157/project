@@ -391,7 +391,7 @@ h2{
 
 
 
- /* @media screen  and (min-width:375px) and (max-width:425px){
+  @media screen  and (min-width:375px) and (max-width:425px){
     .header{
         display: flex;  
        }
@@ -414,8 +414,8 @@ h2{
     .imagecontainer pre{
         font-size: medium;
         position: relative;
-        right:90px;
-        bottom:40px ;
+        right:50px; 
+        
     }
     .price{
         position: relative;
@@ -536,7 +536,7 @@ h2{
                 /* banner image end */
     
                 /* top products */
-    /* p{
+     p{
         text-align: center;
         font-size:25px;
         color: whitesmoke;
@@ -555,7 +555,7 @@ h2{
                /* top prdts end */
     
                /* feature prdts start */
-    /* .images{
+     .images{
         display: flex;
         gap:155px;
     }
@@ -633,7 +633,7 @@ h2{
         color: whitesmoke;
         font-size:13px;
         
-    } */
+    } 
                 /* feature prdts end */
     
     
@@ -660,8 +660,7 @@ h2{
         position: relative;
         left: 50px;
         top: 20px; */
-/* } 
+} 
 
 
 
-}   */
