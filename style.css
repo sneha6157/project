@@ -353,7 +353,9 @@ h3{
    
 }
 
-
+a:visited{
+    color: white;
+}
 
 
 
